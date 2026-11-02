@@ -9,7 +9,9 @@ export class Food{
 
 	setSpot(){
 		//pick a random spot on the map and set the new position
-		
+		const x = Math.floor(Math.random()*WIDTH)
+		const y = Math.floor(Math.random()*HEIGHT)
+		this.position=[x,y]
 	}
 
 	draw(ctx){

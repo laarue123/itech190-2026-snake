@@ -56,8 +56,8 @@ const mainLoop = (timestamp) =>{
 	ctx.fillStyle = '#fff'
 	ctx.fillRect(0,0, CELL_SIZE*WIDTH, CELL_SIZE*HEIGHT)
 	drawBackground(ctx)
-	//food.draw(ctx)
-	//snake.draw(ctx)
+	food.draw(ctx)
+	snake.draw(ctx)
 
 
 }

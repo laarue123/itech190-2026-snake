@@ -57,7 +57,8 @@ export class Snake{
 		
 
 		//update head position
-		
+		this.position[0][0]+=this.dir[0]
+		this.position[0][1]+=this.dir[1]
 	}
 
 	draw(ctx){
