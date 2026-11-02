@@ -1,0 +1,12 @@
+To Do
+1) Make snake move
+2) Make food pick a random spot
+3) Make snake grow when it hits food
+4) handle updating snake segments
+5) Add score UI
+6) Add instructions UI
+6) Implement score class
+7) connect score update to foot hit event
+8) add sprites for food and snake
+9) add music
+10) Bonus:  add different types of food, and have score update accordingly
